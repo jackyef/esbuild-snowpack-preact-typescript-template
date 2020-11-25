@@ -1,10 +1,10 @@
 {
-  "name": "esbuild-preact-typescript-template",
+  "name": "esbuild-snowpack-preact-typescript-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node scripts/dev.js & live-server docs",
+    "dev": "snowpack dev",
     "build": "node scripts/build.js",
     "serve": "live-server docs"
   },
@@ -16,8 +16,9 @@
     "preact": "^10.5.7"
   },
   "devDependencies": {
+    "@snowpack/app-scripts-preact": "^1.9.5",
     "esbuild": "^0.8.14",
     "live-server": "^1.2.1",
-    "node-watch": "^0.7.0"
+    "snowpack": "^2.17.1"
   }
 }
